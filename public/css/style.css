@@ -1,14 +1,10 @@
-.rstat{
-    background-color: grey;
-    color: white;
+.prodlist{
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
-.srstat{
-    background-color: yellow;
-}
-
-.ssrstat{
-    background-color: red;
+#details{
+    margin: 5vw 5vw 0 5vw;
 }
 
 

@@ -15,12 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('product');
+    return view('welcome');
 });
-
-// Route::get('/coba', function () {
-//     return view('coba');
-// });
 
 Route::get('/product', [ProductController::class, 'index']);
 Route::get('/product/{slug}', [ProductController::class, 'detail']);
